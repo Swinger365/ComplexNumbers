@@ -1,0 +1,2 @@
+/usr/bin/ar qc libalgebraic.a CMakeFiles/algebraic.dir/algebraic.cpp.o
+/usr/bin/ranlib libalgebraic.a

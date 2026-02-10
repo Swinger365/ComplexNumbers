@@ -1,0 +1,624 @@
+Start testing: Feb 10 09:11 +05
+----------------------------------------------------------
+1/23 Testing: AlgebraicComplex.ConstructorWorks
+1/23 Test: AlgebraicComplex.ConstructorWorks
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.ConstructorWorks" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.ConstructorWorks" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.ConstructorWorks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.ConstructorWorks
+[       OK ] AlgebraicComplex.ConstructorWorks (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.ConstructorWorks" end time: Feb 10 09:11 +05
+"AlgebraicComplex.ConstructorWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/23 Testing: AlgebraicComplex.DefaultConstructorWorks
+2/23 Test: AlgebraicComplex.DefaultConstructorWorks
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.DefaultConstructorWorks" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.DefaultConstructorWorks" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.DefaultConstructorWorks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.DefaultConstructorWorks
+[       OK ] AlgebraicComplex.DefaultConstructorWorks (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.DefaultConstructorWorks" end time: Feb 10 09:11 +05
+"AlgebraicComplex.DefaultConstructorWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/23 Testing: AlgebraicComplex.AssignFromDouble
+3/23 Test: AlgebraicComplex.AssignFromDouble
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.AssignFromDouble" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.AssignFromDouble" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.AssignFromDouble
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.AssignFromDouble
+[       OK ] AlgebraicComplex.AssignFromDouble (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.AssignFromDouble" end time: Feb 10 09:11 +05
+"AlgebraicComplex.AssignFromDouble" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/23 Testing: AlgebraicComplex.AssignFromComplex
+4/23 Test: AlgebraicComplex.AssignFromComplex
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.AssignFromComplex" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.AssignFromComplex" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.AssignFromComplex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.AssignFromComplex
+[       OK ] AlgebraicComplex.AssignFromComplex (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.AssignFromComplex" end time: Feb 10 09:11 +05
+"AlgebraicComplex.AssignFromComplex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/23 Testing: AlgebraicComplex.PlusOperatorComplex
+5/23 Test: AlgebraicComplex.PlusOperatorComplex
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.PlusOperatorComplex" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.PlusOperatorComplex" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.PlusOperatorComplex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.PlusOperatorComplex
+[       OK ] AlgebraicComplex.PlusOperatorComplex (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.PlusOperatorComplex" end time: Feb 10 09:11 +05
+"AlgebraicComplex.PlusOperatorComplex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/23 Testing: AlgebraicComplex.MinusOperatorComplex
+6/23 Test: AlgebraicComplex.MinusOperatorComplex
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.MinusOperatorComplex" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.MinusOperatorComplex" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.MinusOperatorComplex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.MinusOperatorComplex
+[       OK ] AlgebraicComplex.MinusOperatorComplex (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.MinusOperatorComplex" end time: Feb 10 09:11 +05
+"AlgebraicComplex.MinusOperatorComplex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/23 Testing: AlgebraicComplex.MultiplyOperatorComplex
+7/23 Test: AlgebraicComplex.MultiplyOperatorComplex
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.MultiplyOperatorComplex" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.MultiplyOperatorComplex" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.MultiplyOperatorComplex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.MultiplyOperatorComplex
+[       OK ] AlgebraicComplex.MultiplyOperatorComplex (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.MultiplyOperatorComplex" end time: Feb 10 09:11 +05
+"AlgebraicComplex.MultiplyOperatorComplex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/23 Testing: AlgebraicComplex.DivideOperatorComplex
+8/23 Test: AlgebraicComplex.DivideOperatorComplex
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.DivideOperatorComplex" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.DivideOperatorComplex" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.DivideOperatorComplex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.DivideOperatorComplex
+[       OK ] AlgebraicComplex.DivideOperatorComplex (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.DivideOperatorComplex" end time: Feb 10 09:11 +05
+"AlgebraicComplex.DivideOperatorComplex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/23 Testing: AlgebraicComplex.PlusEqualOperator
+9/23 Test: AlgebraicComplex.PlusEqualOperator
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.PlusEqualOperator" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.PlusEqualOperator" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.PlusEqualOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.PlusEqualOperator
+[       OK ] AlgebraicComplex.PlusEqualOperator (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.PlusEqualOperator" end time: Feb 10 09:11 +05
+"AlgebraicComplex.PlusEqualOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/23 Testing: AlgebraicComplex.MinusEqualOperator
+10/23 Test: AlgebraicComplex.MinusEqualOperator
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.MinusEqualOperator" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.MinusEqualOperator" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.MinusEqualOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.MinusEqualOperator
+[       OK ] AlgebraicComplex.MinusEqualOperator (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.MinusEqualOperator" end time: Feb 10 09:11 +05
+"AlgebraicComplex.MinusEqualOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/23 Testing: AlgebraicComplex.MultiplyEqualOperator
+11/23 Test: AlgebraicComplex.MultiplyEqualOperator
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.MultiplyEqualOperator" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.MultiplyEqualOperator" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.MultiplyEqualOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.MultiplyEqualOperator
+[       OK ] AlgebraicComplex.MultiplyEqualOperator (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.MultiplyEqualOperator" end time: Feb 10 09:11 +05
+"AlgebraicComplex.MultiplyEqualOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/23 Testing: AlgebraicComplex.DivideEqualOperator
+12/23 Test: AlgebraicComplex.DivideEqualOperator
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.DivideEqualOperator" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.DivideEqualOperator" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.DivideEqualOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.DivideEqualOperator
+[       OK ] AlgebraicComplex.DivideEqualOperator (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.DivideEqualOperator" end time: Feb 10 09:11 +05
+"AlgebraicComplex.DivideEqualOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/23 Testing: AlgebraicComplex.PlusOperatorDouble
+13/23 Test: AlgebraicComplex.PlusOperatorDouble
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.PlusOperatorDouble" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.PlusOperatorDouble" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.PlusOperatorDouble
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.PlusOperatorDouble
+[       OK ] AlgebraicComplex.PlusOperatorDouble (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.PlusOperatorDouble" end time: Feb 10 09:11 +05
+"AlgebraicComplex.PlusOperatorDouble" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/23 Testing: AlgebraicComplex.MultiplyOperatorDouble
+14/23 Test: AlgebraicComplex.MultiplyOperatorDouble
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.MultiplyOperatorDouble" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.MultiplyOperatorDouble" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.MultiplyOperatorDouble
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.MultiplyOperatorDouble
+[       OK ] AlgebraicComplex.MultiplyOperatorDouble (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.MultiplyOperatorDouble" end time: Feb 10 09:11 +05
+"AlgebraicComplex.MultiplyOperatorDouble" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/23 Testing: AlgebraicComplex.DivideOperatorDouble
+15/23 Test: AlgebraicComplex.DivideOperatorDouble
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.DivideOperatorDouble" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.DivideOperatorDouble" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.DivideOperatorDouble
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.DivideOperatorDouble
+[       OK ] AlgebraicComplex.DivideOperatorDouble (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.DivideOperatorDouble" end time: Feb 10 09:11 +05
+"AlgebraicComplex.DivideOperatorDouble" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/23 Testing: AlgebraicComplex.PlusEqualDouble
+16/23 Test: AlgebraicComplex.PlusEqualDouble
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.PlusEqualDouble" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.PlusEqualDouble" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.PlusEqualDouble
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.PlusEqualDouble
+[       OK ] AlgebraicComplex.PlusEqualDouble (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.PlusEqualDouble" end time: Feb 10 09:11 +05
+"AlgebraicComplex.PlusEqualDouble" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/23 Testing: AlgebraicComplex.NormWorks
+17/23 Test: AlgebraicComplex.NormWorks
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.NormWorks" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.NormWorks" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.NormWorks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.NormWorks
+[       OK ] AlgebraicComplex.NormWorks (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.NormWorks" end time: Feb 10 09:11 +05
+"AlgebraicComplex.NormWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/23 Testing: AlgebraicComplex.AbsWorks
+18/23 Test: AlgebraicComplex.AbsWorks
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.AbsWorks" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.AbsWorks" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.AbsWorks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.AbsWorks
+[       OK ] AlgebraicComplex.AbsWorks (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.AbsWorks" end time: Feb 10 09:11 +05
+"AlgebraicComplex.AbsWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/23 Testing: AlgebraicComplex.ArgWorks
+19/23 Test: AlgebraicComplex.ArgWorks
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.ArgWorks" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.ArgWorks" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.ArgWorks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.ArgWorks
+[       OK ] AlgebraicComplex.ArgWorks (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.ArgWorks" end time: Feb 10 09:11 +05
+"AlgebraicComplex.ArgWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/23 Testing: AlgebraicComplex.ConjugateWorks
+20/23 Test: AlgebraicComplex.ConjugateWorks
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.ConjugateWorks" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.ConjugateWorks" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.ConjugateWorks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.ConjugateWorks
+[       OK ] AlgebraicComplex.ConjugateWorks (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.ConjugateWorks" end time: Feb 10 09:11 +05
+"AlgebraicComplex.ConjugateWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/23 Testing: AlgebraicComplex.ShowWorks
+21/23 Test: AlgebraicComplex.ShowWorks
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.ShowWorks" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.ShowWorks" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.ShowWorks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.ShowWorks
+[       OK ] AlgebraicComplex.ShowWorks (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.ShowWorks" end time: Feb 10 09:11 +05
+"AlgebraicComplex.ShowWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/23 Testing: AlgebraicComplex.DivisionByZeroComplexThrows
+22/23 Test: AlgebraicComplex.DivisionByZeroComplexThrows
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.DivisionByZeroComplexThrows" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.DivisionByZeroComplexThrows" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.DivisionByZeroComplexThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.DivisionByZeroComplexThrows
+[       OK ] AlgebraicComplex.DivisionByZeroComplexThrows (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.DivisionByZeroComplexThrows" end time: Feb 10 09:11 +05
+"AlgebraicComplex.DivisionByZeroComplexThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/23 Testing: AlgebraicComplex.DivisionByZeroScalarThrows
+23/23 Test: AlgebraicComplex.DivisionByZeroScalarThrows
+Command: "/home/damir/CLionProjects/ComplexNumbers/build/tests/my_tests" "--gtest_filter=AlgebraicComplex.DivisionByZeroScalarThrows" "--gtest_also_run_disabled_tests"
+Directory: /home/damir/CLionProjects/ComplexNumbers/build/tests
+"AlgebraicComplex.DivisionByZeroScalarThrows" start time: Feb 10 09:11 +05
+Output:
+----------------------------------------------------------
+Running main() from /home/damir/CLionProjects/ComplexNumbers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlgebraicComplex.DivisionByZeroScalarThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlgebraicComplex
+[ RUN      ] AlgebraicComplex.DivisionByZeroScalarThrows
+[       OK ] AlgebraicComplex.DivisionByZeroScalarThrows (0 ms)
+[----------] 1 test from AlgebraicComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AlgebraicComplex.DivisionByZeroScalarThrows" end time: Feb 10 09:11 +05
+"AlgebraicComplex.DivisionByZeroScalarThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 10 09:11 +05

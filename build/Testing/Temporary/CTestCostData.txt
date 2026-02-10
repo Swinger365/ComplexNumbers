@@ -1,0 +1,24 @@
+AlgebraicComplex.ConstructorWorks 5 0.00106398
+AlgebraicComplex.DefaultConstructorWorks 5 0.00210884
+AlgebraicComplex.AssignFromDouble 5 0.00276945
+AlgebraicComplex.AssignFromComplex 5 0.00305069
+AlgebraicComplex.PlusOperatorComplex 5 0.00225487
+AlgebraicComplex.MinusOperatorComplex 5 0.00146364
+AlgebraicComplex.MultiplyOperatorComplex 5 0.00163667
+AlgebraicComplex.DivideOperatorComplex 5 0.00122387
+AlgebraicComplex.PlusEqualOperator 5 0.00145761
+AlgebraicComplex.MinusEqualOperator 5 0.0012392
+AlgebraicComplex.MultiplyEqualOperator 5 0.00138079
+AlgebraicComplex.DivideEqualOperator 5 0.00126928
+AlgebraicComplex.PlusOperatorDouble 5 0.00123093
+AlgebraicComplex.MultiplyOperatorDouble 5 0.00119204
+AlgebraicComplex.DivideOperatorDouble 5 0.00102156
+AlgebraicComplex.PlusEqualDouble 5 0.00122616
+AlgebraicComplex.NormWorks 5 0.000989935
+AlgebraicComplex.AbsWorks 5 0.00115389
+AlgebraicComplex.ArgWorks 5 0.00127392
+AlgebraicComplex.ConjugateWorks 5 0.00089844
+AlgebraicComplex.ShowWorks 6 0.00109946
+AlgebraicComplex.DivisionByZeroComplexThrows 5 0.00120445
+AlgebraicComplex.DivisionByZeroScalarThrows 5 0.000946731
+---

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libexponential.a CMakeFiles/exponential.dir/exponential.cpp.o
+/usr/bin/ranlib libexponential.a

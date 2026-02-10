@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/my_tests.dir/algebraic_tests.cpp.o CMakeFiles/my_tests.dir/exponential_tests.cpp.o CMakeFiles/my_tests.dir/trigonometric_tests.cpp.o -o my_tests  ../lib/libgtest_main.a ../src/algebraic/libalgebraic.a ../src/exponential/libexponential.a ../src/trigonometric/libtrigonometric.a ../lib/libgtest.a 

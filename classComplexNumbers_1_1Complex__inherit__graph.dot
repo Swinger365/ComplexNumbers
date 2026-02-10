@@ -7,4 +7,6 @@ digraph "ComplexNumbers::Complex"
   Node1 [id="Node000001",label="ComplexNumbers::Complex",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Абстрактная базовая форма комплексного числа."];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node2 [id="Node000002",label="ComplexNumbers::Algebraic",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classComplexNumbers_1_1Algebraic.html",tooltip="Алгебраическая форма комплексного числа: a + bi."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ComplexNumbers::Exponential",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classComplexNumbers_1_1Exponential.html",tooltip="Экспоненциальная форма комплексного числа."];
 }

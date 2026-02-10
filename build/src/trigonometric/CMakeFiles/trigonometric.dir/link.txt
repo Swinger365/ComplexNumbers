@@ -1,2 +1,0 @@
-/usr/bin/ar qc libtrigonometric.a CMakeFiles/trigonometric.dir/trigonometric.cpp.o
-/usr/bin/ranlib libtrigonometric.a

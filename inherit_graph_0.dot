@@ -8,4 +8,6 @@ digraph "Graphical Class Hierarchy"
   Node0 [id="Node000000",label="ComplexNumbers::Complex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classComplexNumbers_1_1Complex.html",tooltip="Абстрактная базовая форма комплексного числа."];
   Node0 -> Node1 [id="edge1_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node1 [id="Node000001",label="ComplexNumbers::Algebraic",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classComplexNumbers_1_1Algebraic.html",tooltip="Алгебраическая форма комплексного числа: a + bi."];
+  Node0 -> Node2 [id="edge2_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ComplexNumbers::Exponential",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classComplexNumbers_1_1Exponential.html",tooltip="Экспоненциальная форма комплексного числа."];
 }

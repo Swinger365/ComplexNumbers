@@ -7,14 +7,16 @@ using namespace ComplexNumbers;
 
 // ============ Конструктор ============
 
-TEST(AlgebraicComplex, ConstructorWorks) {
+TEST(AlgebraicComplex, ConstructorWorks)
+{
     Algebraic z(3, -2);
 
     EXPECT_DOUBLE_EQ(z.real(), 3);
     EXPECT_DOUBLE_EQ(z.imaginary(), -2);
 }
 
-TEST(AlgebraicComplex, DefaultConstructorWorks) {
+TEST(AlgebraicComplex, DefaultConstructorWorks)
+{
     Algebraic z;
 
     EXPECT_DOUBLE_EQ(z.real(), 0);
@@ -23,7 +25,8 @@ TEST(AlgebraicComplex, DefaultConstructorWorks) {
 
 // ============ Присваивание ============
 
-TEST(AlgebraicComplex, AssignFromDouble) {
+TEST(AlgebraicComplex, AssignFromDouble)
+{
     Algebraic z(1, 5);
 
     z = 7;
@@ -32,7 +35,8 @@ TEST(AlgebraicComplex, AssignFromDouble) {
     EXPECT_DOUBLE_EQ(z.imaginary(), 0);
 }
 
-TEST(AlgebraicComplex, AssignFromComplex) {
+TEST(AlgebraicComplex, AssignFromComplex)
+{
     Algebraic a(1, 2);
     Algebraic b(5, -3);
 
@@ -44,7 +48,8 @@ TEST(AlgebraicComplex, AssignFromComplex) {
 
 // ============ Операции с комплексными ============
 
-TEST(AlgebraicComplex, PlusOperatorComplex) {
+TEST(AlgebraicComplex, PlusOperatorComplex)
+{
     Algebraic a(1, 2);
     Algebraic b(3, 4);
 
@@ -54,7 +59,8 @@ TEST(AlgebraicComplex, PlusOperatorComplex) {
     EXPECT_DOUBLE_EQ(res.imaginary(), 6);
 }
 
-TEST(AlgebraicComplex, MinusOperatorComplex) {
+TEST(AlgebraicComplex, MinusOperatorComplex)
+{
     Algebraic a(5, 2);
     Algebraic b(3, 1);
 
@@ -64,7 +70,8 @@ TEST(AlgebraicComplex, MinusOperatorComplex) {
     EXPECT_DOUBLE_EQ(res.imaginary(), 1);
 }
 
-TEST(AlgebraicComplex, MultiplyOperatorComplex) {
+TEST(AlgebraicComplex, MultiplyOperatorComplex)
+{
     Algebraic a(1, 2);
     Algebraic b(3, 4);
 
@@ -74,7 +81,8 @@ TEST(AlgebraicComplex, MultiplyOperatorComplex) {
     EXPECT_DOUBLE_EQ(res.imaginary(), 10);
 }
 
-TEST(AlgebraicComplex, DivideOperatorComplex) {
+TEST(AlgebraicComplex, DivideOperatorComplex)
+{
     Algebraic a(1, 2);
     Algebraic b(3, 4);
 
@@ -86,7 +94,8 @@ TEST(AlgebraicComplex, DivideOperatorComplex) {
 
 // ============ Составные операторы ============
 
-TEST(AlgebraicComplex, PlusEqualOperator) {
+TEST(AlgebraicComplex, PlusEqualOperator)
+{
     Algebraic a(1, 2);
     Algebraic b(3, 4);
 
@@ -96,7 +105,8 @@ TEST(AlgebraicComplex, PlusEqualOperator) {
     EXPECT_DOUBLE_EQ(a.imaginary(), 6);
 }
 
-TEST(AlgebraicComplex, MinusEqualOperator) {
+TEST(AlgebraicComplex, MinusEqualOperator)
+{
     Algebraic a(5, 2);
     Algebraic b(3, 1);
 
@@ -106,7 +116,8 @@ TEST(AlgebraicComplex, MinusEqualOperator) {
     EXPECT_DOUBLE_EQ(a.imaginary(), 1);
 }
 
-TEST(AlgebraicComplex, MultiplyEqualOperator) {
+TEST(AlgebraicComplex, MultiplyEqualOperator)
+{
     Algebraic a(1, 2);
     Algebraic b(3, 4);
 
@@ -116,7 +127,8 @@ TEST(AlgebraicComplex, MultiplyEqualOperator) {
     EXPECT_DOUBLE_EQ(a.imaginary(), 10);
 }
 
-TEST(AlgebraicComplex, DivideEqualOperator) {
+TEST(AlgebraicComplex, DivideEqualOperator)
+{
     Algebraic a(1, 2);
     Algebraic b(3, 4);
 
@@ -128,7 +140,8 @@ TEST(AlgebraicComplex, DivideEqualOperator) {
 
 // ============ Операции с double ============
 
-TEST(AlgebraicComplex, PlusOperatorDouble) {
+TEST(AlgebraicComplex, PlusOperatorDouble)
+{
     Algebraic z(1, 2);
 
     Algebraic res = z + 3;
@@ -137,7 +150,8 @@ TEST(AlgebraicComplex, PlusOperatorDouble) {
     EXPECT_DOUBLE_EQ(res.imaginary(), 2);
 }
 
-TEST(AlgebraicComplex, MultiplyOperatorDouble) {
+TEST(AlgebraicComplex, MultiplyOperatorDouble)
+{
     Algebraic z(2, -1);
 
     Algebraic res = z * 3;
@@ -146,7 +160,8 @@ TEST(AlgebraicComplex, MultiplyOperatorDouble) {
     EXPECT_DOUBLE_EQ(res.imaginary(), -3);
 }
 
-TEST(AlgebraicComplex, DivideOperatorDouble) {
+TEST(AlgebraicComplex, DivideOperatorDouble)
+{
     Algebraic z(6, 4);
 
     Algebraic res = z / 2;
@@ -155,7 +170,8 @@ TEST(AlgebraicComplex, DivideOperatorDouble) {
     EXPECT_DOUBLE_EQ(res.imaginary(), 2);
 }
 
-TEST(AlgebraicComplex, PlusEqualDouble) {
+TEST(AlgebraicComplex, PlusEqualDouble)
+{
     Algebraic z(1, 2);
 
     z += 5;
@@ -166,25 +182,29 @@ TEST(AlgebraicComplex, PlusEqualDouble) {
 
 // ============ Функции ============
 
-TEST(AlgebraicComplex, NormWorks) {
+TEST(AlgebraicComplex, NormWorks)
+{
     Algebraic z(3, 4);
 
     EXPECT_DOUBLE_EQ(z.norm(), 25);
 }
 
-TEST(AlgebraicComplex, AbsWorks) {
+TEST(AlgebraicComplex, AbsWorks)
+{
     Algebraic z(3, 4);
 
     EXPECT_DOUBLE_EQ(z.abs(), 5);
 }
 
-TEST(AlgebraicComplex, ArgWorks) {
+TEST(AlgebraicComplex, ArgWorks)
+{
     Algebraic z(0, 1);
 
     EXPECT_NEAR(z.arg(), M_PI / 2, 1e-6);
 }
 
-TEST(AlgebraicComplex, ConjugateWorks) {
+TEST(AlgebraicComplex, ConjugateWorks)
+{
     Algebraic z(3, -4);
 
     Algebraic c = z.conjugate();
@@ -195,7 +215,8 @@ TEST(AlgebraicComplex, ConjugateWorks) {
 
 // ============ Show() ============
 
-TEST(AlgebraicComplex, ShowWorks) {
+TEST(AlgebraicComplex, ShowVariousCases)
+{
     Algebraic z1(0, 0);
     EXPECT_EQ(z1.show(), "0");
 
@@ -236,7 +257,8 @@ TEST(AlgebraicComplex, ShowWorks) {
     EXPECT_EQ(z9.show(), "3 - i");
 }
 
-TEST(AlgebraicComplex, ShowPureImaginaryUnit) {
+TEST(AlgebraicComplex, ShowPureImaginaryUnit)
+{
     Algebraic z1(0, 1);
     EXPECT_EQ(z1.show(), "i");
 
@@ -246,14 +268,16 @@ TEST(AlgebraicComplex, ShowPureImaginaryUnit) {
 
 // ============ Исключения ============
 
-TEST(AlgebraicComplex, DivisionByZeroComplexThrows) {
+TEST(AlgebraicComplex, DivisionByZeroComplexThrows)
+{
     Algebraic a(1, 2);
     Algebraic zero(0, 0);
 
     EXPECT_THROW(a / zero, std::runtime_error);
 }
 
-TEST(AlgebraicComplex, DivisionByZeroScalarThrows) {
+TEST(AlgebraicComplex, DivisionByZeroScalarThrows)
+{
     Algebraic a(1, 2);
 
     EXPECT_THROW(a / 0.0, std::runtime_error);

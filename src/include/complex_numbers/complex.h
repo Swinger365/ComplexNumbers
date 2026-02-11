@@ -3,7 +3,8 @@
 
 #include <string>
 
-namespace ComplexNumbers {
+namespace ComplexNumbers
+{
 
     /**
      * @brief Абстрактная базовая форма комплексного числа.
@@ -11,7 +12,8 @@ namespace ComplexNumbers {
      * Хранит первую и вторую компоненты и задает интерфейс вывода.
      * Первой компонентой может быть действительная часть или модуль, второй - мнимая часть или аргумент, в зависимости от формы представления.
      */
-    class Complex {
+    class Complex
+    {
     protected:
         /** @brief Первая компонента (обычно действительная часть). */
         double first;
@@ -26,7 +28,8 @@ namespace ComplexNumbers {
          */
         Complex(double first = 0.0, double second = 0.0)
             : first(first), second(second)
-        {}
+        {
+        }
 
         /** @brief Виртуальный деструктор. */
         virtual ~Complex() = default;
@@ -38,12 +41,14 @@ namespace ComplexNumbers {
         virtual std::string show() const = 0;
 
         /** @brief Действительная часть. */
-        double real() const {
+        virtual double real() const
+        {
             return first;
         }
 
         /** @brief Мнимая часть. */
-        double imaginary() const {
+        virtual double imaginary() const
+        {
             return second;
         }
     };
